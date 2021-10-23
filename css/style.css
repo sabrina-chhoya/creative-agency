@@ -1,0 +1,612 @@
+/* Google font family Montserrat+poppins */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Global CSS */
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* Header Section */
+
+header {
+    background: url(../img/header-bg.png) no-repeat center top;
+    background-size: cover;
+}
+
+.navbar-brand .logo-left {
+    margin-left: -180px;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #ffff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #ffff;
+    font-weight: 500;
+    padding: 0 17px;
+}
+
+.dropdown-toggle::after {
+    border-top: 0;
+    border-right: 0;
+}
+
+.nav-item .fa {
+    font-size: 22px;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    margin-right: -195px;
+}
+
+.banner-content {
+    padding: 95px 0 187px 0;
+}
+
+.banner-content h3 {
+    color: #ffff;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 33px;
+}
+
+.banner-content h1 {
+    color: #ffff;
+    font-size: 55px;
+    font-weight: 600;
+    margin: 21px 0;
+}
+
+.banner-content p {
+    color: #ffff;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 60px;
+}
+
+.btn-header-1 {
+    text-decoration: none;
+    background: #f42267;
+    padding: 16px 42px;
+    border-radius: 35px;
+    color: #ffff;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 85px;
+    margin-right: 25px;
+}
+
+.btn-header-1:hover {
+    color: #f42267;
+    background: #ffff;
+}
+
+.btn-header-2 {
+    text-decoration: none;
+    background: #773492;
+    padding: 16px 42px;
+    border-radius: 35px;
+    color: #ffff;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.btn-header-2:hover {
+    color: #773492;
+    background: #ffff;
+}
+
+.banner-img {
+    position: relative;
+}
+
+.img-right {
+    position: absolute;
+    top: 40px;
+    left: -124px;
+    height: 600px;
+    width: 894px;
+}
+
+
+/* about company section */
+
+.abt-company {
+    background: url(../img/dot-map.png) no-repeat center top;
+    background-size: auto;
+    padding: 90px 0 0 0;
+    max-width: 100%;
+    height: auto;
+    color: #484848;
+}
+
+.company-row {
+    padding-bottom: 90px;
+}
+
+.abt-company h3 {
+    font-weight: 400;
+    font-style: italic;
+}
+
+.abt-company h1 {
+    font-weight: 700;
+    font-size: 46px;
+    margin-bottom: 26px;
+}
+
+.about-btn {
+    text-decoration: none;
+    color: #484848;
+    text-transform: uppercase;
+    font-size: 13px;
+    margin: 0 16px;
+    font-weight: 700;
+}
+
+.about-btn:hover {
+    background: #f42267;
+    color: #fff;
+    padding: 10px 18px;
+    border-radius: 40px;
+}
+
+.abt-company p {
+    margin-top: 25px;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.abt-company .read-btn {
+    background: #f42267;
+    color: #ffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 13px 15px;
+    border-radius: 10px;
+    margin: 0px 33px 0px 45px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.read-btn:hover {
+    box-shadow: 1px 6px 1px 1px #ff5990;
+}
+
+.watch-position {
+    width: 365px;
+    margin-left: 105px;
+}
+
+.service-section {
+    background: rgba(75, 45, 127, .8);
+    color: #ffff;
+    text-align: center;
+}
+
+.service-section img {
+    display: block;
+    margin: 62px auto 10px auto;
+}
+
+.service-section h1 {
+    margin-bottom: 5px;
+}
+
+.service-section h4 {
+    font-size: 30px;
+    padding: 0 68px;
+}
+
+.service-section p {
+    color: #9583b4;
+    padding: 0 37px;
+}
+
+.service-2 {
+    background: rgba(64, 40, 106, .3);
+}
+
+
+/* story Section */
+
+.story {
+    background: url(../img/story-bg.png) no-repeat center top;
+    background-size: cover;
+    text-align: center;
+    color: #ffff;
+    padding: 90px;
+}
+
+.story h3 {
+    color: #ffff;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 33px;
+}
+
+.story h1 {
+    color: #ffff;
+    font-size: 55px;
+    font-weight: 600;
+    margin: 21px 0;
+}
+
+.story .read-btn {
+    background: #f42267;
+    color: #ffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 35px;
+    border-radius: 10px;
+    margin: 0px 33px 0px 45px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.story .read-btn:hover {
+    box-shadow: 1px 6px 1px 1px #ff5990;
+}
+
+.story p {
+    color: #ffff;
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding: 0 115px;
+}
+
+
+/* Services Section */
+
+.services {
+    background: #ffffff;
+    padding: 90px 0;
+    color: #606060;
+}
+
+.services h3 {
+    font-weight: 400;
+    font-style: italic;
+}
+
+.services h1 {
+    font-weight: 700;
+    font-size: 46px;
+    margin-bottom: 26px;
+}
+
+.services p {
+    margin-top: 25px;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 50px;
+    padding-right: 116px;
+}
+
+.service-info p {
+    font-size: 12px;
+    padding-right: 68px;
+}
+
+.service-info .read-btn {
+    background: #f42267;
+    color: #ffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 35px;
+    border-radius: 10px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.service-info .read-btn:hover {
+    box-shadow: 1px 6px 1px 1px #ff5990;
+}
+
+.thumbnail-img {
+    position: relative;
+}
+
+.thumbnail-img img {
+    width: 500px;
+    margin: 42px 0;
+}
+
+.services .fa-play {
+    position: absolute;
+    z-index: 1;
+    margin: -286px 208px;
+    color: #ffff;
+    background: #f42267;
+    padding: 18px 22px 18px 26px;
+    border-radius: 33px;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+/* Our Work section */
+
+.work {
+    background: #f1f1f1;
+    padding: 75px 0;
+    text-align: center;
+    color: #333333;
+}
+
+.work h1 {
+    font-weight: 700;
+    font-size: 46px;
+    margin-bottom: 26px;
+}
+
+.work p {
+    padding: 0 260px;
+    font-weight: 600;
+}
+
+.work-btns {
+    margin-bottom: 40px;
+}
+
+.work .about-btn {
+    text-decoration: none;
+    color: #484848;
+    text-transform: uppercase;
+    font-size: 13px;
+    margin: 0 16px;
+    font-weight: 700;
+    display: inline;
+    height: 20px;
+    width: 117px;
+}
+
+.work .about-btn:hover {
+    background: #f42267;
+    color: #fff;
+    padding: 10px 18px;
+    border-radius: 40px;
+    box-shadow: 1px 2px 13px 0px #a7a3a5;
+}
+
+.img-works img {
+    margin: 16px 0;
+    width: 400px;
+    height: auto;
+}
+
+.work .read-btn {
+    background: #f42267;
+    color: #ffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 35px;
+    border-radius: 10px;
+    font-size: 13px;
+    font-weight: 600;
+    width: 145px;
+    margin: 86px auto 0 auto;
+}
+
+.work .read-btn:hover {
+    box-shadow: 1px 6px 1px 1px #ff5990;
+}
+
+
+/* Client Logo Section */
+
+.client-logo {
+    background: #4b2d7f;
+    padding: 70px 0px;
+}
+
+.client-logo img {
+    margin: 0 auto;
+    display: block;
+    padding-top: 40px;
+}
+
+.client-logo .amazon-logo {
+    margin-top: 38px;
+}
+
+
+/* Testimonial Section */
+
+.testimonial {
+    background: url(../img/testimonial-bg.png) no-repeat center top;
+    background-size: cover;
+    color: #ffffff;
+    /* padding: 90px 0 0 0; */
+}
+
+.testimonial h3 {
+    font-weight: 400;
+    font-style: italic;
+    margin-top: 80px;
+}
+
+.testimonial h1 {
+    font-weight: 700;
+    font-size: 46px;
+    margin-bottom: 26px;
+}
+
+.testimonial .fa-quote-left {
+    color: #f42267;
+    font-size: 45px;
+    font-style: italic;
+}
+
+.testimonial p {
+    margin-top: 25px;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 50px;
+    padding-right: 180px;
+    font-style: italic;
+    color: #f0f0f0;
+}
+
+.testimonial .fa-star {
+    color: #f42267;
+    font-size: 20px;
+    letter-spacing: 9px;
+    padding-bottom: 15px;
+}
+
+.testimonial h6 {
+    color: #f0f0f0;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+/* Need Help Section */
+
+.need-help {
+    background: url(../img/needhelp-bg.png) no-repeat center top;
+    background-size: cover;
+    padding: 50px 0;
+    color: #ffffff;
+    text-align: center;
+}
+
+.need-help p {
+    padding: 20px 120px;
+}
+
+.form-control {
+    border: none;
+    /* color: #ffff !important; */
+    background: rgba(255, 89, 144, .6);
+    padding: 14px 40px;
+    border-radius: 8px;
+    display: inline;
+    margin: 10px 10px;
+    width: 35%;
+}
+
+.form-control::placeholder {
+    color: #ffff;
+}
+
+.form-control:focus {
+    background-color: transparent;
+    border-color: none;
+    color: #fff;
+}
+
+.form-btn {
+    border: none;
+    background: #4b2d7f;
+    color: #ffff;
+    padding: 8px 31px;
+    border-radius: 8px;
+    text-transform: uppercase;
+}
+
+.form-btn:hover {
+    box-shadow: 1px 6px 1px 1px #a57ee9;
+}
+
+
+/* Soacial Media Section */
+
+.social-media {
+    background: #4b2d7f;
+    color: #ffff;
+    padding: 50px 0;
+    text-transform: lowercase;
+}
+
+.social-media h4 {
+    margin-bottom: 0;
+    font-weight: 400;
+}
+
+.media-line {
+    background: #a57ee9;
+    margin: 5px 17px;
+    padding: 6px 0px;
+    width: 2px;
+    height: 21px;
+}
+
+
+/* Quick links section */
+
+.quick-links {
+    background: url(../img/dot-map.png) no-repeat center top;
+    background-size: auto;
+    padding: 90px 0 0 0;
+    max-width: 100%;
+    height: auto;
+    /* color: #484848; */
+}
+
+.quick-links h5 {
+    font-weight: 700;
+    color: #4b2d7f;
+    font-size: 25px;
+}
+
+.quick-links ul li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.quick-links ul {
+    padding: 0px 4px;
+    font-weight: 600;
+    margin-bottom: 45px;
+}
+
+.links-img {
+    margin-bottom: 14px;
+    width: 100%;
+}
+
+
+/* footer section */
+
+footer {
+    color: #171717;
+    font-family: 'Poppins', sans-serif;
+    /* text-align: center;
+    margin: 30px 0;
+    font-weight: 600; */
+}
+
+footer p {
+    text-align: center;
+    margin: 30px 0;
+    font-weight: 600;
+}
+
+footer a {
+    text-decoration: none;
+    color: #171717;
+    background: rgba(246, 246, 246, .6);
+    /* display: inline; */
+}
+
+footer span {
+    margin: 10px;
+}
